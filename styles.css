@@ -1,12 +1,38 @@
 * {
 	padding: 0;
-	margin: 18px;
+	margin: 0;
+	/*margin: 14px;never put margin on the body*/
 	box-sizing: border-box;
-	font-family: 'Special Elite', cursive;  
+	font-family: 'Special Elite', cursive; 
+}
+
+#big-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+#container {
+	height: 100%;/*it uses all that it gets but not more than it is allocated to it by its parent element*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 7%;
+}
+
+main > div {
+	height: 30%;
 }
 
 body {
 	background: grey;
+}
+
+h1 {
+	color: aqua;
+	padding-top: 3.5em;
+	font-size: 2.6em;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -15,17 +41,16 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0; 
 }
 
-
 input[type=number] {
 	width: 100%;
 	height: 100%;
 	background: #ADADAD;
 	outline: none;
 	color: aqua;
-	font-size: 6em;
+	font-size: 5em;
 	text-align: center;
 	border: 3px solid aqua;
-	border-radius: 50%;
+	border-radius: 40px;
 	padding: 20px 0 0 0;
 }
 
@@ -40,3 +65,4 @@ input[type=number] {
 ::-ms-input-placeholder {
 	color: lightgray;
 }
+

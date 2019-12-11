@@ -5,7 +5,7 @@ See it live: https://andrejap.github.io/Temperature-Converter/
 <img src="screenshot.PNG" alt="screenshot">
 
 ## Resources
-[amatic]("https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet") font from Google Fonts 
+[amatic]("https://fonts.googleapis.com/css?family=Special+Elite") font from Google Fonts 
 
 ## Acknowledgments
 https://www.whatsdev.com/
